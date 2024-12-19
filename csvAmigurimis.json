@@ -1,0 +1,12 @@
+{
+  "date": "2024-12-19",
+  "amigurimis": [
+    {"nombre":"Gato Verde", "img": "./img/ate.jpg", "descripcion": "gato hecho con lana verde para sujetar puertas"},
+    {"nombre":"Gato Azul", "img": "./img/gato1.jpg", "descripcion": "gato hecho con lana azul"},
+    {"nombre":"Ojo", "img": "./img/ojo.jpg", "descripcion": "Cojín de figura de ojo"},
+    {"nombre":"La casa de papel", "img": "./img/rojo.jpg", "descripcion": "Muñeco rojo de la serie la casa de papel"},
+    {"nombre":"Unicornio Marrón", "img": "./img/unicornio_marron.jpg", "descripcion": "Unicornio marrón"},
+    {"nombre":"Unicornio rosa", "img": "./img/unicornio_rosa1.jpg", "descripcion": "Unicornio rosa en forma de peluche"},
+    {"nombre":"Unicornio Verde", "img": "./img/unicornio_verde.jpg", "descripcion": "Unicornio de color verde"}
+  ]
+}
