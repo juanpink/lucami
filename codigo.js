@@ -1,16 +1,16 @@
 //csvAmigurimis.json
 
 function hacerInvisibles() {
-    document.querySelectorAll(".amigurini").forEach( amigurini => amigurini.style.display = "None");
+    document.querySelectorAll(".amigurimi").forEach( amigurimi => amigurimi.style.display = "None");
 }
 
 function hacerVisibles(selector) {
-    document.querySelectorAll(selector).forEach( amigurini => amigurini.style.display = "Block");
+    document.querySelectorAll(selector).forEach( amigurimi => amigurimi.style.display = "Block");
 }
 
 //Botón Todos
 document.querySelector("#bTodos").addEventListener("click", (event) => {
-    hacerVisibles(".amigurini");
+    hacerVisibles(".amigurimi");
 });
 
 //Botón Unicornios
@@ -40,7 +40,7 @@ inputBuscar.addEventListener("input", (event) => {
     if (cadenaBusqueda.length > 0) {
         hacerVisibles(`[nombre*="${cadenaBusqueda}"]`);
     } else {
-        hacerVisibles(".amigurini");
+        hacerVisibles(".amigurimi");
     }
 });
 
@@ -48,6 +48,6 @@ function cargaAmigurimis() {
     fetch('https://juanpink.github.io/lucami/csvAmigurimis.json')
         .then(response => response.json())
         .then(data => console.log(data));
-}
+};
 
 cargaAmigurimis();
