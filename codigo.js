@@ -1,3 +1,5 @@
+//csvAmigurimis.json
+
 function hacerInvisibles() {
     document.querySelectorAll(".amigurini").forEach( amigurini => amigurini.style.display = "None");
 }
@@ -41,3 +43,11 @@ inputBuscar.addEventListener("input", (event) => {
         hacerVisibles(".amigurini");
     }
 });
+
+function cargaAmigurimis() {
+    fetch('https://juanpink.github.io/lucami/csvAmigurimis.json')
+        .then(response => response.json())
+        .then(data => console.log(data));
+}
+
+cargaAmigurimis();
