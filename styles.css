@@ -70,7 +70,7 @@ input[type="text"]:focus {
 }
 
 /* Estilos del contenedor principal */
-main.amigurinis {
+main.amigurimis {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -78,7 +78,7 @@ main.amigurinis {
 }
 
 /* Estilos de los artículos */
-article.amigurini {
+article.amigurimi {
     background-color: #fff;
     border-radius: 10px;
     padding: 15px;
@@ -86,32 +86,34 @@ article.amigurini {
     transition: all 0.3s ease-in-out;
 }
 
-article.amigurini:hover {
+article.amigurimi:hover {
     background-color: #dad4d4;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+
+    transform: scale(1.05);
 }
 
-article.amigurini img {
+article.amigurimi img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-article.amigurini h3 {
+article.amigurimi h3 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #3e2a47; /* Color del título */
 }
 
-article.amigurini p {
+article.amigurimi p {
     font-size: 14px;
     color: #6c4f3d; /* Texto en tono marrón claro */
 }
 
 /* Responsividad: ajusta a una columna en pantallas pequeñas */
 @media (max-width: 768px) {
-    main.amigurinis {
+    main.amigurimis {
         grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
     }
 }
