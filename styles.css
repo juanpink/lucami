@@ -19,6 +19,14 @@ nav {
     padding: 20px;
     background-color: #3e2a47; /* Fondo marrón oscuro */
     background-color: #ed9d36;
+    background-color: rgba(237,157,54,1);
+
+    /*
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    */
 }
 
 nav button {
@@ -59,7 +67,7 @@ input[type="text"] {
     font-size: 16px;
     border: 2px solid #3e2a47;
     border-radius: 5px;
-    width: 250px;
+    width: 260px;
     background-color: white;
     color: #3e2a47;
 }
@@ -70,7 +78,7 @@ input[type="text"]:focus {
 }
 
 /* Estilos del contenedor principal */
-main.amigurimis {
+main.amigurumis {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -78,7 +86,7 @@ main.amigurimis {
 }
 
 /* Estilos de los artículos */
-article.amigurimi {
+article.amigurumi {
     background-color: #fff;
     border-radius: 10px;
     padding: 15px;
@@ -86,34 +94,34 @@ article.amigurimi {
     transition: all 0.3s ease-in-out;
 }
 
-article.amigurimi:hover {
+article.amigurumi:hover {
     background-color: #dad4d4;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 
     transform: scale(1.05);
 }
 
-article.amigurimi img {
+article.amigurumi img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-article.amigurimi h3 {
+article.amigurumi h3 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #3e2a47; /* Color del título */
 }
 
-article.amigurimi p {
+article.amigurumi p {
     font-size: 14px;
     color: #6c4f3d; /* Texto en tono marrón claro */
 }
 
 /* Responsividad: ajusta a una columna en pantallas pequeñas */
 @media (max-width: 768px) {
-    main.amigurimis {
+    main.amigurumis {
         grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
     }
 }

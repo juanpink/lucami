@@ -1,0 +1,128 @@
+/* Estilos generales para el artículo */
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* Estilos para las secciones */
+#izquierda, #derecha {
+    flex: 1;
+    padding: 10px;
+}
+
+#izquierda img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+
+    border-radius: 15px;
+}
+
+/* Estilo para los textos en la sección derecha */
+#derecha h3, #derecha h4, #derecha p {
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+}
+
+#derecha h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding-left: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#derecha h4 {
+    font-size: 1.2em;
+
+    background-color: rgba(237, 157, 54, 1);;
+    color: white;
+    padding-left: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#derecha p {
+    font-size: 1em;
+    color: #666;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    height: 300px;
+    border-bottom: 3px solid lightgray;
+    border-top: 3px solid lightgray;
+    padding: 15px;
+}
+
+/* Estilos del botón */
+#divBoton {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#volver {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+}
+
+/* Media Queries para diseño responsive */
+@media (max-width: 768px) {
+    #contenedor {
+        flex-direction: column;
+    }
+
+    #izquierda, #derecha {
+        flex: none;
+        width: 100%;
+    }
+
+    #derecha h3 {
+        font-size: 1.4em;
+    }
+
+    #derecha h4 {
+        font-size: 1.1em;
+    }
+
+    #derecha p {
+        font-size: 0.9em;
+    }
+
+    #volver {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #derecha h3 {
+        font-size: 1.2em;
+    }
+
+    #derecha h4 {
+        font-size: 1em;
+    }
+
+    #derecha p {
+        font-size: 0.8em;
+    }
+
+    #volver {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
+}
