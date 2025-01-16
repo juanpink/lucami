@@ -80,11 +80,13 @@
 }
 
 /* Media Queries para diseño responsive */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     #contenedor {
         flex-direction: column;
     }
+}
 
+@media (max-width: 768px) {
     #izquierda, #derecha {
         flex: none;
         width: 100%;
