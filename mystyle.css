@@ -1,0 +1,69 @@
+article h4 {
+    cursor: default;
+    transition: color 0.3s;
+}
+
+article h4:hover {
+    cursor: pointer;
+    color: lightseagreen;
+}
+
+#anuncio {
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(0, 255, 255, 0.5);
+    color: black;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    top: 30rem;
+
+    transition: all ease-in-out 3s;
+}
+
+footer {
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(237, 157, 54, 1);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #3e2a47;
+}
+
+@media (max-width: 768px) {
+    footer, #anuncio {
+        font-size: 0.8rem;
+        transition: all ease-in-out 4s;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        flex-direction: column;
+        height: 8rem;
+    }
+
+    #anuncio {
+        font-size: 0.7rem;
+        top: 25rem;
+        transition: all ease-in-out 5s;
+    }
+}
