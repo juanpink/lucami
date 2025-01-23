@@ -1,12 +1,12 @@
 {
   "date": "2025-01-07",
   "amigurumis": [
-    {"nombre":"Gato Verde", "img": "./img/ate.jpg", "descripcion": "gato hecho con lana verde para sujetar puertas", "clase": "gato"},
-    {"nombre":"Gato Azul", "img": "./img/gato1.jpg", "descripcion": "gato hecho con lana azul", "clase": "gato"},
-    {"nombre":"Ojo", "img": "./img/ojo.jpg", "descripcion": "Cojín de figura de ojo", "clase": "otros"},
-    {"nombre":"La casa de papel", "img": "./img/rojo.jpg", "descripcion": "Muñeco rojo de la serie la casa de papel", "clase": "otros"},
-    {"nombre":"Unicornio Marrón", "img": "./img/unicornio_marron.jpg", "descripcion": "Unicornio marrón", "clase": "unicornio"},
-    {"nombre":"Unicornio rosa", "img": "./img/unicornio_rosa1.jpg", "descripcion": "Unicornio rosa en forma de peluche", "clase": "unicornio"},
-    {"nombre":"Unicornio Verde", "img": "./img/unicornio_verde.jpg", "descripcion": "Unicornio de color verde", "clase": "unicornio"}
+    {"nombre":"Gato Verde", "img": "./img/ate.jpg", "descripcion": "gato hecho con lana verde para sujetar puertas", "clase": "gato", "imagenes": []},
+    {"nombre":"Gato Azul", "img": "./img/gato1.jpg", "descripcion": "gato hecho con lana azul", "clase": "gato", "imagenes": ["./img/gato1.jpg", "./img/gato2.jpg", "./img/gato3.jpg"]},
+    {"nombre":"Ojo", "img": "./img/ojo.jpg", "descripcion": "Cojín de figura de ojo", "clase": "otros", "imagenes": []},
+    {"nombre":"La casa de papel", "img": "./img/rojo.jpg", "descripcion": "Muñeco rojo de la serie la casa de papel", "clase": "otros", "imagenes": []},
+    {"nombre":"Unicornio Marrón", "img": "./img/unicornio_marron.jpg", "descripcion": "Unicornio marrón", "clase": "unicornio", "imagenes": []},
+    {"nombre":"Unicornio rosa", "img": "./img/unicornio_rosa1.jpg", "descripcion": "Unicornio rosa en forma de peluche", "clase": "unicornio", "imagenes": ["./img/unicornio_rosa1.jpg", "./img/unicornio_rosa2.jpg", "./img/unicornio_rosa3.jpg"]},
+    {"nombre":"Unicornio Verde", "img": "./img/unicornio_verde.jpg", "descripcion": "Unicornio de color verde", "clase": "unicornio", "imagenes": []}
   ]
 }
