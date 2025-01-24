@@ -8,9 +8,75 @@
     <link rel="stylesheet" href="amigurumi.css">
 
     <script src="./amigurumi.js" defer></script>
+
+    <link rel="stylesheet" href="carruselMini.css">
+    <script src="carruselMini.js" defer></script>
 </head>
 
 <body>
+
+    <!-- Images used to open the lightbox -->
+     <!--
+    <div class="row">
+        <div class="column">
+            <img src="./img/gato2.jpg" width="150px" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="./img/gato2.jpg" width="150px"  onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="./img/gato3.jpg" width="150px"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+    </div>
+    -->
+  
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+    
+            <div class="mySlides">
+                <div class="numbertext">1 / 3</div>
+                <img src="" style="width:100%" id="myslide1">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 3</div>
+                <img src="" style="width:100%" id="myslide2">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 3</div>
+                <img src="" style="width:100%" id="myslide3">
+            </div>
+        
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        
+            <!-- Thumbnail image controls -->
+            <div class="rowThumbail">
+                <div class="column">
+                    <img class="demo" src="" width="100px" onclick="currentSlide(1)" alt="" id="thumbail1">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="" width="100px" onclick="currentSlide(2)" alt="" id="thumbail2">
+                </div>
+            
+                <div class="column">
+                    <img class="demo" src="" width="100px" onclick="currentSlide(3)" alt="" id="thumbail3">
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
     <article id="contenedor"></article>
 
     <div id="divBoton">
